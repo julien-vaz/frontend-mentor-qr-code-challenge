@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     
     height: 100vh;
@@ -11,6 +10,8 @@ body {
 }
 
 #card {
+    margin: auto 0;
+    
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
 
@@ -48,25 +49,20 @@ p {
 }
 
 #primary-text {
+    margin: 0;
+    
     color: hsl(218, 44%, 22%);
+
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
     font-weight: 700;
-    font-size: 1.2em;
-    letter-spacing: 0.03rem;
+    font-size: 1.4em;
+    letter-spacing: 0.02rem;
 }
 
 #secondary-text {
     color: hsl(216, 15%, 48%);
     font-weight: 400;
     font-size: 0.95em;
-}
-
-.attribution {
-    position: fixed;
-    bottom: 0%;
-
-    padding-bottom: 1rem;
-
-    font-family: 'Outfit', sans-serif;
-    text-align: center;
-    font-size: 15px;
+    line-height: 1.3;
 }
